@@ -1,0 +1,101 @@
+/* This is the CSS style sheet for Resume-William-Stanford.html */
+
+body{
+  font-family: Helvetica;
+  font-size: 17px;
+  background-color: #66d9ff;
+  overflow-x: hidden;
+}
+
+#resume{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+#personalInfo{
+    text-align: center;
+}
+
+#contactInfo{
+  font-family: Ebrima;
+
+
+}
+
+#webContact{
+  margin-right: 27px;
+  padding-top: 15px;
+}
+
+#myName{
+  font-size: 40px;
+  font-weight: lighter;
+  color: #663399;
+}
+
+a{
+color: #663399;
+outline:none;
+text-decoration: none;
+padding-right: 20px;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+#divider{
+border-bottom-style: solid;
+border-width: 5px;
+padding-top: 25px;
+}
+
+.bar{
+border-bottom-color: #663399;
+line-height: 26px;
+padding-left: 3000px;
+margin-left: -3000px;
+padding-right: 3000px;
+margin-right: -3000px;
+}
+
+
+.sectionHeader{
+  font-family: Ebrima;
+  font-size: 30px;
+  font-weight: normal;
+  color: #663399;
+}
+
+#one{
+  background-color: #	FDF5E6;
+
+
+}
+
+.oddEntry{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: #FDF5E6;
+}
+
+.evenEntry{
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-style: hidden;
+  border-radius: 10px;
+  background-color: #F8F8FF;
+}
